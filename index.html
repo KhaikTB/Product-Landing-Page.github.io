@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="Product_Landing_Page.css">
+</head>
+<body>
+    <header>
+        <img id='header-img' src="Logo.png" alt="Tesla Logo">
+        <nav>
+            <a class='nav-link' href="#features">Features</a>
+            <a class='nav-link' href="#howitsbuilt">How it's Built ?</a>
+            <a class='nav-link' href="#pricing">Pricing</a>
+            <a class='nav-link' href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id='features'>
+            <h2>Car Features:</h2>
+        
+            <ul>
+                <li>Autopilot</li>
+                <li>Ludicrous Plus Mode</li>
+                <li>Superchargers</li>
+                <li>Over-the-air updates</li>
+                <li>Streaming services</li>
+                <li>Web browser</li>
+                <li>Auto-raising suspension</li>
+                <li>Advanced parking sensors</li>
+                <li>The key</li>
+                <li>The app</li>
+                <li>Easter eggs</li>
+            </ul>
+        </section>
+
+        <section id='howitsbuilt'>
+            <h2>How it's Built ?</h2>
+
+            <p>On a state-of-the-art assembly line in Fremont, California, 400 cars a day are being created by 3,000 workers and 160 robots.</p>
+            <p>This is Tesla Motors, and the cars they’re making are currently the most advanced electric car on the market.</p>
+            <p>Plus, you know, their factory has giant robot arms installing batteries, motors, seats, windshields, cabling, and components with a delicate ease you might not expect from a giant robot arm.</p>
+
+            <h3>How the Tesla Model S is Made | Tesla Motors Part 1 (WIRED)</h3>
+        
+            <iframe src="https://www.youtube.com/embed/8_lfxPI5ObM?autoplay=1&mute=1&playlist=8_lfxPI5ObM&loop=1" allowfullscreen frameborder="0"></iframe>
+        </section>
+
+        <section>
+            <h2>Car Pricings</h2>
+
+            <div id='pricing'>
+                <div class='car-pricings'>
+                    <h4>Model X:</h4>
+                    <p>Only 49.999$</p>
+                </div>
+
+                <div class='car-pricings'>
+                    <h4>Model S:</h4>
+                    <p>Only 59.999$</p>
+                </div>
+
+                <div class='car-pricings'>
+                    <h4>Model 3:</h4>
+                    <p>Only 79.999$</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id='contact'>
+            <h3>Contact</h3>
+
+            <form id='form-flow' action="https://formsubmit.co/1de7032d0d8eaf84d6f64b0c2d23310b" method="POST" target="_blank" name="Email_Form">
+
+                <input type="hidden" value="http://127.0.0.1:5500/Product Landing Page/Product_Landing_Page_ThankYou.html" name="_next">
+                <input type="hidden" value="New email whooo, great success!" name="_subject">
+                
+                <input id='email' type="email" required="" name="Email" placeholder="Enter your email address"></input>
+                <button type="submit">Send Email</button>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
